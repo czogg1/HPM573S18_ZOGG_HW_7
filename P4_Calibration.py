@@ -1,5 +1,5 @@
 # Problem 4. Calibration: Mortality probability and 95% credible interval
-import CalibrationClasses as Cls
+import CalibrationClasses_P4 as Cls
 import CalibrationSettings_P4 as CalibSets
 import scr.FigureSupport as Fig
 
@@ -21,4 +21,4 @@ Fig.graph_histogram(
 print('Problem 4. The estimate of the mortality probability ({:.{prec}%} credible interval) is'.format(1-CalibSets.ALPHA, prec=0),
       calibration.get_mortality_estimate_credible_interval(CalibSets.ALPHA, 4))
 
-# 0.0868 (0.0718, 0.1034)
+# 0.0868 (0.0718, 0.1029)

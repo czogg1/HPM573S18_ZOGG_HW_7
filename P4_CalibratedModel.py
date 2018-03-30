@@ -1,5 +1,5 @@
 # Problem 5. Projection: Mean survival and 95% projection interval
-import CalibrationClasses as Cls
+import CalibrationClasses_P4 as Cls
 import CalibrationSettings_P4 as P
 import scr.FigureSupport as Fig
 
@@ -20,4 +20,4 @@ Fig.graph_histogram(
 print('Problem 5. The mean survival time and {:.{prec}%} projection interval is'.format(1 - P.ALPHA, prec=0),
       calibrated_model.get_mean_survival_time_proj_interval(P.ALPHA, deci=4))
 
-# An example: 11.6206 (9.8050, 13.6388)
+# 11.5433 (9.8430, 13.6979)
