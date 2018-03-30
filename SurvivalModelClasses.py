@@ -241,4 +241,3 @@ class MultiCohort:
         :param cohort_index: integer over [0, 1, ...] corresponding to the 1st, 2ndm ... simulated cohort
         """
         return self._5y_survival_probabilities[cohort_index]
-

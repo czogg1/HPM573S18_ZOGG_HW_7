@@ -30,4 +30,3 @@ k = 400
 print('Problem 3. The likelihood of observing the result of a clinical trial with',
       k, 'observed events out of', n, 'participants and an assumed true propability of',
       p, 'is', stats.binom.pmf(p=p, n=n, k=k))
-

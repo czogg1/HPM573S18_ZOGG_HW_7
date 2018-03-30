@@ -20,8 +20,9 @@ Fig.graph_histogram(
 print('Problem 6. The mean survival time and {:.{prec}%} projection interval is'.format(1 - P.ALPHA, prec=0),
       calibrated_model.get_mean_survival_time_proj_interval(P.ALPHA, deci=4))
 
-# An example of output: 11.6840 (9.8772, 13.9504) versus from P5: 11.6304 (9.8366, 13.8879)
+# An example: 11.6851 (9.9110, 13.7840) (from P5. 11.6206 (9.8050, 13.6388))
 
-print('Increasing the sample size (n) without changing the observed probability of death (k/n) did change '
-      'the estimated 95% projection interval.')
-print('The projection bounds became tighter, more narrow. The mean remained unchanged.')
+print('Increasing the sample size (n) without changing the observed probability of survival (k/n) should, in theory, '
+      'result in higher precision in the model and tighter projection interval bounds.')
+print('Due to some issue with the coding that I do not understand, mine did not meaningfully change. '
+      'I got the same result with the original gaussian calibration files on which my code is based.')

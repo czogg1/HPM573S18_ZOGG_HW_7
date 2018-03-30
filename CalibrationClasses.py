@@ -194,4 +194,3 @@ class CalibratedModel:
         proj_interval = self._multiCohorts.get_PI_mean_survival(alpha)
 
         return FormatSupport.format_estimate_interval(mean, proj_interval, deci)
-

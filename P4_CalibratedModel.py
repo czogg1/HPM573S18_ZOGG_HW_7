@@ -20,4 +20,4 @@ Fig.graph_histogram(
 print('Problem 5. The mean survival time and {:.{prec}%} projection interval is'.format(1 - P.ALPHA, prec=0),
       calibrated_model.get_mean_survival_time_proj_interval(P.ALPHA, deci=4))
 
-# An example output: 11.6337 (9.8189, 13.8879)
+# An example: 11.6206 (9.8050, 13.6388)
