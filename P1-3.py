@@ -1,7 +1,7 @@
 import SurvivalModelClasses as Cls
 
 MORTALITY_PROB = 0.1    # annual probability of mortality
-TIME_STEPS = 100        # simulation length
+TIME_STEPS = 1000       # simulation length
 SIM_POP_SIZE = 1000     # population size of the simulated cohort
 ALPHA = 0.05            # significance level
 
@@ -21,7 +21,7 @@ print('Problem 2. The number of participants who survived beyond 5 years in a co
 print('     with parameter p equal to the true probability '
       'of surviving beyond 5 years and the parameter n equal to the number of participants in the population')
 
-# Problem 3: Likelihood calculation ##ASK##
+# Problem 3: Likelihood calculation
 import scipy.stats as stats
 p = 0.5
 n = 573
